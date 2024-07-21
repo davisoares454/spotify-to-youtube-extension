@@ -1,5 +1,5 @@
 <h1 align="center">Spotify to YouTube Chrome Extension<br />
-<div align="center" style="margin-top: 10px;">
+<div align="center" style="margin-top: 20px;">
 <a href="https://github.com/davisoares454/spotify-to-youtube-extension"><img src="https://github.com/davisoares454/spotify-to-youtube-extension/raw/main/icons/spotify-to-youtube-256.png" title="Logo" style="max-width:100%;" width="128" /></a>
 </div>
 <div align="center">
