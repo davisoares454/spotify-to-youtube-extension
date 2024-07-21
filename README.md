@@ -1,6 +1,12 @@
-# Spotify to YouTube Chrome Extension
+<h1 align="center">Spotify to YouTube Chrome Extension<br />
+<div align="center">
+<a href="https://github.com/davisoares454/spotify-to-youtube-extension"><img src="https://github.com/davisoares454/spotify-to-youtube-extension/raw/main/icons/spotify-to-youtube-256.png" title="Logo" style="max-width:100%;" width="128" /></a>
+</div>
+<div align="center">
 
-This Chrome extension automatically redirects Spotify track URLs to YouTube, searching for and opening the first video result based on the track's name. It includes a toggle switch that allows you to enable or disable this automatic redirection feature.
+</div></h1>
+
+Redirects from Spotify song pages directly to the first YouTube song found with that same name.
 
 ## Features
 
