@@ -5,7 +5,7 @@
   <style>
     body {
       width: 180px; /* Smaller width for the popup */
-      height: 120px; /* Smaller height for the popup */
+      height: 140px; /* Adjusted height for the popup */
       text-align: center;
       display: flex;
       flex-direction: column;
@@ -23,6 +23,11 @@
       margin-bottom: 15px; /* Adjusted margin */
       color: #fff;
       text-shadow: 2px 2px 4px #000; /* Thick black outline effect */
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
     /* The switch - the box around the slider */
     .switch {
@@ -90,14 +95,34 @@
       border-radius: 50%; /* Rounded knob */
     }
 
+    .link-text {
+      color: #007bff; /* Link color */
+      text-decoration: underline; /* Underline the text */
+      cursor: pointer; /* Change cursor to pointer on hover */
+      font-size: 10px; /* Adjust font size if needed */
+      margin-top: 10px; /* Add margin to move the text down */
+      transition: color 0.3s, text-decoration 0.3s; /* Smooth transition for hover effect */
+    }
+
+    .link-text:hover {
+      color: #0056b3; /* Darker color on hover */
+      text-decoration: none; /* Remove underline on hover */
+    }
+
+    .link-text:active {
+      color: #004494; /* Even darker color when clicked */
+    }
   </style>
 </head>
 <body>
   <h1>Spotify to YouTube</h1>
-  <label class="switch">
-    <input type="checkbox" id="toggle">
-    <span class="slider round"></span>
-  </label>
+  <div class="container">
+    <label class="switch">
+      <input type="checkbox" id="toggle">
+      <span class="slider round"></span>
+    </label>
+    <span class="link-text" id="manualRedirect">manual redirect</span>
+  </div>
   <script src="popup.js"></script>
 </body>
 </html>

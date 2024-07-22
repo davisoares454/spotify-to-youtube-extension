@@ -12,7 +12,7 @@ Redirects from Spotify song pages directly to the first YouTube song found with 
 
 - **Automatic Redirection**: When you open a Spotify track URL, the extension will automatically redirect to YouTube and open the first video result for that track.
 - **Toggle Switch**: Enable or disable the automatic redirection with a toggle switch.
-- **Customizable Icons**: The switch uses custom icons to represent the Spotify and YouTube services.
+- **Manual Redirection Button**: If the toggle switch is disabled, it's possible to manually redirect the current spotify tab to youtube.
 
 ## Installation
 
