@@ -9,7 +9,7 @@
     "storage"
   ],
   "host_permissions": [
-    "https://open.spotify.com/*",
+    "https://open.spotify.com/track/*",
     "https://www.youtube.com/results?search_query=*"
   ],
   "background": {
